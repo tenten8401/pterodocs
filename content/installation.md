@@ -13,7 +13,7 @@ title = "Installation"
   [menu.main]
     identifier = "installation"
     weight = 10
-
+    pre ="<i class='fa fa-download'></i> "
 +++
 
 These are the Installation Docs for the Pterodactyl Panel.

@@ -13,7 +13,7 @@ title = "Troubleshooting"
   [menu.main]
     identifier = "trouble"
     weight = 12
-
+    pre ="<i class='fa fa-wrench'></i> "
 +++
 
 These are the Troubleshooting Docs for the Troubleshooting Pterodactyl Panel Installs.

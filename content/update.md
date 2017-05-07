@@ -13,7 +13,7 @@ title = "Updating"
   [menu.main]
     identifier = "update"
     weight = 11
-
+    pre ="<i class='fa fa-refresh'></i> "
 +++
 
 These are the Updating Docs for the Pterodactyl Panel.
