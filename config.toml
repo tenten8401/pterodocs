@@ -1,0 +1,7 @@
+baseURL = "https://pterodocs.parkervcp.com"
+languageCode = "en-us"
+title = "parkervcp testing"
+theme = "docdock"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
