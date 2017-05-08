@@ -17,3 +17,5 @@ title = "Installation"
 +++
 
 These are the Installation Docs for the Pterodactyl Panel.
+
+{{%children style="h2" depth="3" description="true"%}}

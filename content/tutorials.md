@@ -5,16 +5,13 @@ date = "2017-05-07T11:59:31-04:00"
 description = ""
 lastmodifierdisplayname = "parkervcp"
 lastmodifieremail = "parker@parkervcp.com"
-tags = ["tag1","tag2"]
-title = "Panel Requirements"
+tags = []
+title = "Tutorials"
 
 [menu]
 
   [menu.main]
-  identifier = "install-centos-panel-reqs"
-  parent = "install-centos-panel"
-    weight = 40
-
+    identifier = "tutorials"
+    weight = 13
+    pre ="<i class='fa fa-graduation-cap'></i> "
 +++
-
-Lorem Ipsum

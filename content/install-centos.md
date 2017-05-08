@@ -17,4 +17,6 @@ title = "CentOS 7 Docs"
 
 +++
 
-#### This install documentation is meant for CentOS 7.
+A bunch of Shortcodes are available with this theme :
+
+{{%children style="h2" depth="2" description="true"%}}

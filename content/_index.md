@@ -1,13 +1,24 @@
 +++
+title = "Home"
+description = ""
 creatordisplayname = "parkervcp"
 creatoremail = "parker@parkervcp.com"
-date = "2017-05-07T11:59:31-04:00"
-description = ""
-lastmodifierdisplayname = "parkervcp"
-lastmodifieremail = "parker@parkervcp.com"
-tags = []
-title = "Pterodactyl Docs"
 
 +++
 
-The Doc Site for the Pterodactyl Server Control Panel
+<span id="sidebar-toggle-span">
+<a href="#" id="sidebar-toggle" data-sidebar-toggle=""><i class="fa fa-bars"></i></a>
+</span>
+
+# Pterodactyl Doc Site
+
+The Doc Site for the Pterodactyl Server Control Panel  
+
+You may be looking for  
+
+* **[Installation]({{%relref "installation.md" %}})**  
+ * [CentOS]({{%relref "install-centos.md" %}})  
+ * [Ubuntu]({{%relref "install-ubuntu.md" %}})  
+* **[Updating]({{%relref "update.md" %}})**  
+* **[Troubleshooting]({{%relref "trouble.md" %}})**  
+* **[Tutorials]({{%relref "tutorials.md" %}})**  

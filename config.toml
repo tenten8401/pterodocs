@@ -5,3 +5,16 @@ theme = "docdock"
 
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
+
+[[menu.shortcuts]]
+pre = "<h3>More</h3>"
+name = "<i class='fa fa-github'></i> Github Panel repo"
+identifier = "pr"
+url = "https://github.com/Pterodactyl/Panel"
+weight = 1
+
+[[menu.shortcuts]]
+name = "<i class='fa fa-github'></i> Github Daemon repo"
+identifier = "dr"
+url = "https://github.com/Pterodactyl/Daemon"
+weight = 2

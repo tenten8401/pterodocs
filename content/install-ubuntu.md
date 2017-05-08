@@ -6,7 +6,7 @@ description = ""
 lastmodifierdisplayname = "parkervcp"
 lastmodifieremail = "parker@parkervcp.com"
 tags = ["Ubuntu", "Install", "Panel", "Daemon"]
-title = "Ubuntu Docs"
+title = "Ubuntu 16.04 Docs"
 
 [menu]
 
