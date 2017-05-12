@@ -4,6 +4,8 @@ taxonomy:
     category: docs
 ---
 
+Check out [Webserver Config](/general/webserver/nginx)
+
 #### Setting up php-fpm
 ```
 nano /etc/opt/remi/php71/php-fpm.d/www.conf
