@@ -1,4 +1,4 @@
 ---
-title: 'Using Nginx'
+title: Nginx
 ---
 
