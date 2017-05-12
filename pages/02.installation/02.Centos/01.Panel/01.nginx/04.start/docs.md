@@ -1,5 +1,5 @@
 ---
-title: start
+title: Start
 taxonomy:
     category: docs
 ---
