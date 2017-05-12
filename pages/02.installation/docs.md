@@ -9,5 +9,5 @@ Pterodactyl Panel is designed to run on your own web server. You will need to ha
 * CentOS `7`
 * Debian `8`
 
-! Debian 8 requires kernel modifications for daemon
+! Debian 8 requires kernel modifications for daemon  
 ! Using Ubuntu Server `14.04 LTS (Trusty Tahr)` might cause some issues as it does not provide the latest versions of some packages, using Ubuntu Server `16.04 LTS (Xenial Xerus)` is recommended.
