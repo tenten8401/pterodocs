@@ -4,10 +4,13 @@ taxonomy:
     category: docs
 ---
 
-Check out [Webserver Config](/general/webserver/nginx)
+Grab the [nginx ssl config](/general/webserver/nginx/ssl) from in the general area
 
-#### Setting up php-fpm
+Paste the nginx config of choice into the `/etc/nginx/conf.d/pterodactyl.conf`
+
+#### Configure php-fpm
 ```
+
 nano /etc/opt/remi/php71/php-fpm.d/www.conf
 ```
 
