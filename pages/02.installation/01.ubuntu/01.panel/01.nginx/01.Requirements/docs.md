@@ -25,7 +25,6 @@ Pterodactyl Panel is designed to run on your own web server. You will need to ha
  	* cURL ```php7.1-curl```
  	* Zip ```php7.1-zip```
 * MySQL ```>= 5.7``` or MariaDB ```>= 10.1```
-
 * Nginx or Apache
 	* If using NGINX ensure you install ```php7.1-fpm```
 * cURL ```curl```
