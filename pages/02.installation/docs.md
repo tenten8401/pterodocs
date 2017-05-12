@@ -9,4 +9,4 @@ Pterodactyl Panel is designed to run on your own web server. You will need to ha
 * CentOS `7`
 * Debian `8`
 
-! Debian `8` requires kernel modifications for daemon
+! Debian 8 requires kernel modifications for daemon
