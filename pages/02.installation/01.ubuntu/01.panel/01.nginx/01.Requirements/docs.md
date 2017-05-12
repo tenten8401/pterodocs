@@ -13,9 +13,9 @@ Pterodactyl Panel is designed to run on your own web server. You will need to ha
 
 **Dependencies**
 	* PHP >= ```7.0.0``` (PHP 7.1 recommended) with the following extensions:
-* CLI ```php7.1-cli```
+* CLI ```php7.1-cli``` 
 * OpenSSL (included with packaged versions)
-* GD ```php7.1-gd```
+* GD ```php7.1-gd``` 
 * MySQL ```php7.1-mysql```
 * PDO ```php7.1-pdo```
 * MBString ```php7.1-mbstring```
