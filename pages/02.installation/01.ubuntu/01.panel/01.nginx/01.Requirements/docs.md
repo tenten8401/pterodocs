@@ -31,5 +31,5 @@ Pterodactyl Panel is designed to run on your own web server. You will need to ha
 * cURL ```curl```
 * Tar ```tar```
 * Unzip ```unzip```
-* Memcached ```memcached``` & ```php7.1-memcache``` or Redis ```redis```
+* Memcached ```memcached``` & ```php7.1-memcache``` or Redis```redis```
 * Git ```git```
