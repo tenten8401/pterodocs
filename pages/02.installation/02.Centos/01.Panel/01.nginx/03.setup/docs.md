@@ -1,5 +1,7 @@
 ---
 title: Setup
+taxonomy:
+    category: docs
 ---
 
 #### Setting up php-fpm
