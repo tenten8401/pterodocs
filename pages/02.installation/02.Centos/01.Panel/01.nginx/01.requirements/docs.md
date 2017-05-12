@@ -26,3 +26,6 @@ yum update -y
 ```
 curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 ```
+
+!! This does not install or configure MySQL/MariaDB on your server. You are expected to install those, and configure, on your own.  
+!! We have a tutorial that you can follow in the 
