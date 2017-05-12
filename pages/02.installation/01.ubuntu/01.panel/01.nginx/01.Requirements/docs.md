@@ -12,7 +12,7 @@ Pterodactyl Panel is designed to run on your own web server. You will need to ha
 !! Using Ubuntu Server 14.04 LTS (Trusty Tahr) might cause some issues as it does not provide the latest versions of some packages, using Ubuntu Server 16.04 LTS (Xenial Xerus) is recommended.
 
 **Dependencies**
-	* PHP >= 7.0.0 (PHP 7.1 recommended) with the following extensions:
+	* PHP >= ```7.0.0``` (PHP 7.1 recommended) with the following extensions:
 * CLI php7.1-cli
 * OpenSSL (included with packaged versions)
 * GD php7.1-gd
