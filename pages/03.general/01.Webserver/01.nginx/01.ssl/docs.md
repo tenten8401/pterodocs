@@ -1,5 +1,5 @@
 ---
-title: ssl
+title: 'ssl config'
 taxonomy:
     category: docs
 ---
