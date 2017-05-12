@@ -33,3 +33,17 @@ Pterodactyl Panel is designed to run on your own web server. You will need to ha
 * Unzip ```unzip```
 * Memcached ```memcached``` & ```php7.1-memcache``` or Redis ```redis```
 * Git ```git```
+
+**Install Dependencies**
+These commands should work on most modern Ubuntu distributions.
+```
+# Add additional PHP packages.
+add-apt-repository -y ppa:ondrej/php
+curl -sS https://downloads.mariadb.com/MariaDB/mariadb_repo_setup | sudo bash
+
+# Update repositories list
+apt update
+
+# Install Dependencies
+apt-get -y install php7.1 php7.1-cli php7.1-gd php7.1-mysql php7.1-pdo php7.1-mbstring php7.1-tokenizer php7.1-bcmath php7.1-xml php7.1-fpm php7.1-memcached php7.1-curl php7.1-zip mariadb-server nginx curl tar unzip git memcached
+```
