@@ -1,5 +1,7 @@
 ---
 title: Download
+taxonomy:
+    category: docs
 ---
 
 #### Get the files from GitHub
