@@ -1,5 +1,7 @@
 ---
 title: Requirements
+taxonomy:
+    category: docs
 ---
 
 #### Installing REMI repo
