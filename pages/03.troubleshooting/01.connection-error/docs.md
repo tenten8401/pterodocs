@@ -1,5 +1,5 @@
 ---
-title: 'Connection Error'
+title: 'Connection Errors'
 ---
 
 `We were unable to connect to the main Socket.IO server, there may be network issues currently. The panel may not work as expected.`
