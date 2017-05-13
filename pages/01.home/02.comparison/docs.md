@@ -9,13 +9,11 @@ title: 'Software Comparison'
 |Self-Contained<sup>[1](#anchor-1)</sup>|:fa-times:|:fa-minus: <sup>[2](#anchor-2)</sup>|:fa-check:|:fa-times:|
 |Regular Updates|:fa-check:|:fa-check:|:fa-check:|:fa-check:|
 |Support|Discord, Forums, Email|Email, Ticket System|Email, Discord, Ticket System|IRC,Discord, Forums|
-|Supported Games| | | | |
 |Minecraft|:fa-check:|:fa-check:|:fa-check:|:fa-check:|
 |Source Based|:fa-check:|:fa-times:|:fa-check:|:fa-check:|
 |ARK|:fa-check:|:fa-times:|:fa-check:|:fa-times:|
 |Voice Servers|:fa-check:|:fa-times:|:fa-check:|:fa-times:|
 |Add Your Own Games & Services|:fa-check:|:fa-times:|:fa-check:|:fa-check:|
-| | | | | |
 |Two-Factor Auth|:fa-check:|:fa-check:|:fa-times:|:fa-check:|
 |File Manager|Custom|Net2FTP|Custom|:fa-times:|
 |Sub-Users|:fa-check:|:fa-check:|:fa-check:|:fa-times:|
