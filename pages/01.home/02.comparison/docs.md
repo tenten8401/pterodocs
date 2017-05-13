@@ -25,15 +25,15 @@ title: 'Software Comparison'
 |Remote Nodes|:fa-check:|:fa-check:|:fa-check:|:fa-check:|
 |Panel API|:fa-check:|:fa-check:|:fa-check:|:fa-times:|
 |Minecraft Plugin System|:fa-check:|:fa-check:|:fa-check:|:fa-times: |
-|Core Plugin System| | | | |
-|Template System| | | | |
-|Multi-Language| | | | |
-|Backup System| | | | |
-|Additional Port Management| | | | |
-|Locked Ports| | | | |
-|Scheduled Tasks| | | | |
-|Responsive Design| | | | |
-|Push Notifications| | | | |
+|Core Plugin System|:fa-times:|:fa-times:|:fa-check:|:fa-times:|
+|Template System|:fa-check:|:fa-check:|:fa-check:|:fa-times:|
+|Multi-Language|:fa-minus:<sup>[5](#anchor-5)</sup>|:fa-check:|:fa-check:|:fa-minus:|
+|Backup System|:fa-times:|:fa-check:|:fa-check:|:fa-times:|
+|Additional Port Management|:fa-check:|:fa-times:|:fa-check:|:fa-times:|
+|Locked Ports|:fa-check:|:fa-times:|:fa-check:|:fa-minus:|
+|Scheduled Tasks|:fa-check:|:fa-check:|:fa-check:|:fa-times:|
+|Responsive Design|:fa-check:|:fa-times:<sup>[8](#anchor-8)</sup>|:fa-check:|:fa-check:|
+|Push Notifications|:fa-times:|:fa-times:|:fa-check:|:fa-times:|
 | | | | | |
 
 <a id="anchor-1">1</a> — Refers to the panel being entirely self-contained and not needing any additional dependencies to be installed separately (MySQL, Webserver, etc.).
