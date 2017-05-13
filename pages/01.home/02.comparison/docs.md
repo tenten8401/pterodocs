@@ -6,7 +6,7 @@ title: 'Software Comparison'
 |-|-|-|-|-|
 |Price|Free|Commercial|Commercial|Free|
 |Platform|:fa-linux:|:fa-linux: :fa-windows:|:fa-linux: :fa-windows:|:fa-linux:|
-|Self-Contained| | | | |
+|Self-Contained[1](#anchor-1)| | | | |
 |Regular Updates| | | | |
 |Support| | | | |
 | | | | | |
