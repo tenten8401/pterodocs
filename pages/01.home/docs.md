@@ -27,8 +27,10 @@ Pterodactyl Panel is built on the Laravel PHP Framework (`5.4`).
 |:---------------------:|:---------------------:|:---------------------:|
 |@Technowix				|@Juiced [:fa-github:](https://github.com/OrangeJuiced)|@FlatronEZ [:fa-github:](https://github.com/ET-Bent)|
 |`Technowix#4932 `		|`Juiced#7395`			|`FlatronEZ#9564`		|
+| 						| 						| 						|
 |@matthew				|@cossacksman			|@Zyphys				|
 |`matthew#9207`			|`cossacksman#0745`		|`Zyphys#2739`			|
+| 						| 						| 						|
 |@repz					|@Rian (Paradaux)		| 						|
 |`repz#3448`			|`Paradaux#2864`		| 						|
 |  						| 						| 						|
