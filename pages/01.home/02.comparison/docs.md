@@ -17,11 +17,23 @@ title: 'Software Comparison'
 |Add Your Own Games & Services|:fa-check:|:fa-times:|:fa-check:|:fa-check:|
 | | | | | |
 |Two-Factor Auth|:fa-check:|:fa-check:|:fa-times:|:fa-check:|
-| | | | | |
-| | | | | |
-| | | | | |
-| | | | | |
-| | | | | |
+|File Manager|Custom|Net2FTP|Custom|:fa-times:|
+|Sub-Users|:fa-check:|:fa-check:|:fa-check:|:fa-times:|
+|External File Access| | | | |
+|MySQL DB Creation| | | | |
+|Docker Based| | | | |
+|Remote Nodes| | | | |
+|Panel API| | | | |
+|Minecraft Plugin System| | | | |
+|Core Plugin System| | | | |
+|Template System| | | | |
+|Multi-Language| | | | |
+|Backup System| | | | |
+|Additional Port Management| | | | |
+|Locked Ports| | | | |
+|Scheduled Tasks| | | | |
+|Responsive Design| | | | |
+|Push Notifications| | | | |
 | | | | | |
 
 <a id="anchor-1">1</a> — Refers to the panel being entirely self-contained and not needing any additional dependencies to be installed separately (MySQL, Webserver, etc.).
