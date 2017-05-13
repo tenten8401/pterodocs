@@ -8,6 +8,7 @@ Pterodactyl Panel is built on the Laravel PHP Framework (`5.4`).
 
 #### Core Project Team
 | | |
+|-|-|
 | Dane Everitt			|Project Lead	|[:fa-github:](https://github.com/DaneEveritt) [:fa-link:](https://daneeveritt.com)|
 | `Tactical Fish#2793`	|				|
 |						|				|
