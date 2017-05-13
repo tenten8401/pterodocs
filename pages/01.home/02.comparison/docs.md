@@ -23,8 +23,8 @@ title: 'Software Comparison'
 |MySQL DB Creation|:fa-check:|:fa-times:|:fa-times:|:fa-times:|
 |Docker Based|:fa-check:|:fa-minus: <sup>[4](#anchor-4)</sup>|:fa-times:|:fa-times:|
 |Remote Nodes|:fa-check:|:fa-check:|:fa-check:|:fa-check:|
-|Panel API| | | | |
-|Minecraft Plugin System| | | | |
+|Panel API|:fa-check:|:fa-check:|:fa-check:|:fa-times:|
+|Minecraft Plugin System|:fa-check:|:fa-check:|:fa-check:|:fa-times: |
 |Core Plugin System| | | | |
 |Template System| | | | |
 |Multi-Language| | | | |
