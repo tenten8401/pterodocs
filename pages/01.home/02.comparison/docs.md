@@ -2,7 +2,7 @@
 title: 'Software Comparison'
 ---
 
-| |PT|MC|AMP|PP|
+| |Pterodactyl|Multicraft|AMP|PufferPanel|
 |-|-|-|-|-|
 |Price|Free|Commercial|Commercial|Free|
 |Platform|:fa-linux:|:fa-linux: :fa-windows:|:fa-linux: :fa-windows:|:fa-linux:|
