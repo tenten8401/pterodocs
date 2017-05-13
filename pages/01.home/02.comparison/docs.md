@@ -7,8 +7,8 @@ title: 'Software Comparison'
 |Price|Free|Commercial|Commercial|Free|
 |Platform|:fa-linux:|:fa-linux: :fa-windows:|:fa-linux: :fa-windows:|:fa-linux:|
 |Self-Contained<sup>[1](#anchor-1)</sup>|:fa-times:|:fa-minus: <sup>[2](#anchor-2)</sup>|:fa-check:|:fa-times:|
-|Regular Updates| | | | |
-|Support| | | | |
+|Regular Updates|:fa-check:|:fa-check:|:fa-check:|:fa-check:|
+|Support|Discord, Forums, Email|Email, Ticket System|Email, Discord, Ticket System|IRC,Discord, Forums|
 | | | | | |
 |Minecraft| | | | |
 |Source Based| | | | |
