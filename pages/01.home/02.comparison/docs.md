@@ -9,6 +9,6 @@ title: 'Software Comparison'
 |Self-Contained| | | | |
 |Regular Updates| | | | |
 |Support| | | | |
-|-|-|-|-|-|
+| | | | | |
 |minecraft| | | | |
 | | | | | |
