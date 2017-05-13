@@ -12,11 +12,11 @@ title: 'Software Comparison'
 |Supported Games| | | | |
 |Minecraft|:fa-check:|:fa-check:|:fa-check:|:fa-check:|
 |Source Based|:fa-check:|:fa-times:|:fa-check:|:fa-check:|
-|ARK|:fa-check:|:fa-times:| | |
-|Voice Servers| | | | |
-|Add Your Own Games & Services| | | | |
+|ARK|:fa-check:|:fa-times:|:fa-check:|:fa-times:|
+|Voice Servers|:fa-check:|:fa-times:|:fa-check:|:fa-times:|
+|Add Your Own Games & Services|:fa-check:|:fa-times:|:fa-check:|:fa-check:|
 | | | | | |
-|Two-Factor Auth| | | | |
+|Two-Factor Auth|:fa-check:|:fa-check:|:fa-times:|:fa-check:|
 | | | | | |
 | | | | | |
 | | | | | |
