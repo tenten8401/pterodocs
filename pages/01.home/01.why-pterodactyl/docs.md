@@ -4,8 +4,7 @@ title: 'Why Pterodactyl?'
 
 |Feature ||
 |-|-|
-|Security|Pterodactyl Panel has always, and always will, put security first. We make use of best security practices and methods. Passwords are always stored in hashed form using Bcrypt hashing. Any sensitive data is stored using `AES-256-CBC` encryption.   
-We support HTTPS out of the box and have designed our daemon to support it as well.|
+|Security|Pterodactyl Panel has always, and always will, put security first. We make use of best security practices and methods. Passwords are always stored in hashed form using Bcrypt hashing. Any sensitive data is stored using `AES-256-CBC` encryption. We support HTTPS out of the box and have designed our daemon to support it as well.|
 |Design|We keep our design and pages simple for two reasons: your eyes and your bandwidth. Theres no need to load complex, fancy pages when a simple, clean design can accomplish the same thing.|
 |Extensibility|We're open source! All of our templates are created using the `Blade Templating Engine` which allows you to fully customize every aspect of the design. We also implemented a theme changer so that you can build off our base theme with your own customizations, or even build an entirely new theme.|
 |Responsiveness|Its the new key-word in today's world, but it does exist in the panel. The entire panel is mobile friendly and looks great on every screen.|
