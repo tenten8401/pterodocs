@@ -1,5 +1,5 @@
 ---
-title: gpg-signature
+title: 'GPG signature'
 ---
 
 Starting with Panel `v0.4.0` all releases are signed with the GPG key below. All releases include a detached key as well to verify your download against.
