@@ -8,14 +8,16 @@ Pterodactyl Panel is built on the Laravel PHP Framework (`5.4`).
 
 #### Core Project Team
 
-| Dane Everitt			|
-| `Tactical Fish#2793`	|
-|						|
-| Michael Parker		|
-| `parkervcp#6789`		|
-|						|
-| Jakob Schrettenbrunner|
-| `J4kee#2890`			|
-|						|
-| Emmet Young			|
-| `death-droid#2342`	|
+| Name					| Title			|
+|:---------------------:|:-------------:|
+| Dane Everitt			|Project Lead	|
+| `Tactical Fish#2793`	|				|
+|						|				|
+| Michael Parker		|Docker Guru	|
+| `parkervcp#6789`		|				|
+|						|				|
+| Jakob Schrettenbrunner|Developer		|
+| `J4kee#2890`			|				|
+|						|				|
+| Emmet Young			|[WHMCS Module](https://github.com/hammerdawn/Pterodactyl-WHMCS)|
+| `death-droid#2342`	|				|
