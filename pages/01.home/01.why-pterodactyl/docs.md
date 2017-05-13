@@ -2,7 +2,7 @@
 title: 'Why Pterodactyl?'
 ---
 
-|Feature ||
+|Feature | |
 |-|-|
 |Security|Pterodactyl Panel has always, and always will, put security first. We make use of best security practices and methods. Passwords are always stored in hashed form using Bcrypt hashing. Any sensitive data is stored using `AES-256-CBC` encryption. We support HTTPS out of the box and have designed our daemon to support it as well.|
 |Design|We keep our design and pages simple for two reasons: your eyes and your bandwidth. Theres no need to load complex, fancy pages when a simple, clean design can accomplish the same thing.|
