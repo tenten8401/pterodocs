@@ -19,7 +19,7 @@ title: 'Software Comparison'
 |Two-Factor Auth|:fa-check:|:fa-check:|:fa-times:|:fa-check:|
 |File Manager|Custom|Net2FTP|Custom|:fa-times:|
 |Sub-Users|:fa-check:|:fa-check:|:fa-check:|:fa-times:|
-|External File Access|:fa-check:|:fa-check:|:fa-times:|:fa-check:|
+|External File Access|:fa-check:|:fa-check:<sup>[3](#anchor-3)</sup>|:fa-times:|:fa-check:|
 |MySQL DB Creation|:fa-check:|:fa-times:|:fa-times:|:fa-times:|
 |Docker Based|:fa-check:|:fa-minus: <sup>[4](#anchor-4)</sup>|:fa-times:|:fa-times:|
 |Remote Nodes|:fa-check:|:fa-check:|:fa-check:|:fa-check:|
