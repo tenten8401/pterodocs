@@ -1,11 +1,11 @@
 ---
 title: www.conf
 taxonomy:
-    category: docs
+    category:
+        - docs
 ---
 
 ```
-
 [www]
 
 user = nginx
