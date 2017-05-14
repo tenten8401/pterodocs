@@ -35,7 +35,6 @@ php artisan pterodactyl:env
 After you've configured the environment, we need to configure email handling. To do that, enter the command below and follow the prompts. If you would like to use PHP's `mail()` function simply select the `mail` option. You also have the option to use SMTP or an email delivery service.
 
 ```sh
-
 php artisan pterodactyl:mail
 ```
 
@@ -54,7 +53,6 @@ php artisan migrate
 Once the database is setup we then need to seed the database with service information. To do so, run the command below.
 
 ```sh
-
 php artisan db:seed
 ```
 
