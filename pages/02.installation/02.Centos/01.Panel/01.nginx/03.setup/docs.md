@@ -19,7 +19,6 @@ Paste the www.conf into the `/etc/opt/remi/php71/php-fpm.d/www.conf`
 
 #### Generate application encryption key
 ```sh
-
 php artisan key:generate --force
 ```
 
@@ -28,7 +27,6 @@ php artisan key:generate --force
 The next thing we need to do is get our environment setup for the panel. To do this, run the command below and follow the prompts. Please be aware that the script will first ask if you want to edit a setting (and show the current value). You will need to answer `y` or `yes` to that question before it will ask for the actual data.
 
 ```sh
-
 php artisan pterodactyl:env
 ```
 
@@ -48,7 +46,6 @@ php artisan pterodactyl:mail
 We can now setup the database. This is an automatic process that only requires you enter the command below.
 
 ```sh
-
 php artisan migrate
 ```
 
@@ -66,7 +63,6 @@ php artisan db:seed
 Finally, we need to create an admin account on the system. Run the command below and follow the prompts to do so.
 
 ```sh
-
 php artisan pterodactyl:user
 ```
 
@@ -75,7 +71,6 @@ php artisan pterodactyl:user
 #### Crontab Setup
 We need to setup one cronjob to run every minute so that your server tasks will be queued. Simply run `sudo crontab -e` and then enter the code below at the bottom.
 
-```shell
-
+```sh
 * * * * * php /var/www/html/pterodactyl/artisan schedule:run >> /dev/null 2>&1
 ```
