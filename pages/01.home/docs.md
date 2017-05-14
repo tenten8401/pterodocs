@@ -1,5 +1,6 @@
 ---
 title: 'About Pterodactyl'
+menu: Home
 ---
 
 Pterodactyl is the **free** game server management panel designed by users, for users. Featuring support for Vanilla Minecraft, Spigot, Source Dedicated Servers, BungeeCord, and many more. 
