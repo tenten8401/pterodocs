@@ -30,5 +30,5 @@ composer install --no-dev
 #### Set perms on files
 ```sh
 chown -R nginx:nginx /var/www/html/pterodactyl/
- chmod -R 777 storage/
+chmod -R 777 storage/
 ```
