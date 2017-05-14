@@ -1,7 +1,8 @@
 ---
 title: Setup
 taxonomy:
-    category: docs
+    category:
+        - docs
 ---
 
 #### Configure pterodactyl.conf
@@ -13,3 +14,12 @@ Paste the nginx config into the `/etc/nginx/conf.d/pterodactyl.conf`
 Grab the php-fpm [www.conf](php-fpm) in the www.conf area under this one.
 
 Paste the www.conf into the `/etc/opt/remi/php71/php-fpm.d/www.conf`
+
+!! You need to have your MySQL/MariaDB user and table set up before you proceed.
+
+#### Copy example env file
+```sh
+cp .env.example .env
+composer install --no-dev
+```
+
