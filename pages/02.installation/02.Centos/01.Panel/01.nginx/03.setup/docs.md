@@ -17,13 +17,6 @@ Paste the www.conf into the `/etc/opt/remi/php71/php-fpm.d/www.conf`
 
 !! You need to have your MySQL/MariaDB user and table set up before you proceed.
 
-#### Copy example env file
-```sh
-
-cp .env.example .env
-composer install --no-dev
-```
-
 #### Generate application encryption key
 ```sh
 
@@ -67,3 +60,15 @@ Once the database is setup we then need to seed the database with service inform
 
 php artisan db:seed
 ```
+
+#### Add Admin Account
+
+Finally, we need to create an admin account on the system. Run the command below and follow the prompts to do so.
+
+```sh
+
+php artisan pterodactyl:user
+```
+
+! Passwords for the user must include mixed case, at least one number, and at least 8 characters. The script will fail otherwise.
+
