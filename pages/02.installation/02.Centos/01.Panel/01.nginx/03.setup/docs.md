@@ -72,3 +72,10 @@ php artisan pterodactyl:user
 
 ! Passwords for the user must include mixed case, at least one number, and at least 8 characters. The script will fail otherwise.
 
+#### Crontab Setup
+We need to setup one cronjob to run every minute so that your server tasks will be queued. Simply run `sudo crontab -e` and then enter the code below at the bottom.
+
+```shell
+
+* * * * * php /var/www/html/pterodactyl/artisan schedule:run >> /dev/null 2>&1
+```
