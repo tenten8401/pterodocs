@@ -1,13 +1,13 @@
 ---
 title: pterodactyl.conf
 taxonomy:
-    category: docs
+    category:
+        - docs
 ---
 
 This file goes in `/etc/nginx/conf.d/pterodactyl.conf`
 
 ```
-
 server {
     listen 80;
     server_name <domain>;
