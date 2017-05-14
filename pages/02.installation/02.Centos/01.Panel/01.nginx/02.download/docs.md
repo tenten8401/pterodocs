@@ -24,7 +24,7 @@ cd /var/www/html/pterodactyl/
 #### Copy example env file
 ```shell
 cp .env.example .env
-composer install --no-dev
+ composer install --no-dev
 ```
 
 #### Set perms on files
