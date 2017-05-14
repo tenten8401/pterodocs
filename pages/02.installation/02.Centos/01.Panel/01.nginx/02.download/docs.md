@@ -14,7 +14,7 @@ tar --strip-components=1 -xzvf Panel-0.6.0.tar.gz
 ```
 
 #### Run Composer
-```
+```sh
 cd /var/www/html/pterodactyl/
 cp .env.example .env
 composer install --no-dev
@@ -22,13 +22,13 @@ composer install --no-dev
 
 
 #### Copy example env file
-```
+```sh
 cp .env.example .env
 composer install --no-dev
 ```
 
 #### Set perms on files
-```shell
+```sh
 chown -R nginx:nginx /var/www/html/pterodactyl/
  chmod -R 777 storage/
 ```
