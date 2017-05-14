@@ -1,7 +1,8 @@
 ---
 title: Download
 taxonomy:
-    category: docs
+    category:
+        - docs
 ---
 
 #### Get the files from GitHub
@@ -17,6 +18,13 @@ mkdir -p /var/www/html/pterodactyl
 cd /var/www/html/pterodactyl/
  cp .env.example .env
  composer install --no-dev
+```
+
+
+#### Copy example env file
+```shell
+cp .env.example .env
+composer install --no-dev
 ```
 
 #### Set perms on files
