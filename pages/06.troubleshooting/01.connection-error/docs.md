@@ -6,7 +6,7 @@ title: 'Connection Errors'
 
 Or if your node at `List Nodes` does not show a green heart / you cannot send any commands to your servers, have a look at this list of common issues:
 
-1. Check if the daemon is running (service wings status)
+1. Check if the daemon is running `service wings status`
 2. Check if the daemon ports are open in your firewall (port 8080, e.g. netstat -tunlp | grep 8080 (port 2022 for sftp))
 3. Check if your panel can reach the daemon with the FQDN (Domain) you configured (`tracepath` / `ping` / `nslookup` / `curl`)
 4. Check your DNS settings (nslookup PANEL_DOMAIN.tld and nslookup DAEMON_DOMAIN.tld; make sure that the IP's you get are correct)
