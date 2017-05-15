@@ -1,5 +1,7 @@
 ---
 title: 'GPG signature'
+highlight:
+    enabled: tomorrow-night-bright
 ---
 
 Starting with Panel `v0.4.0` all releases are signed with the GPG key below. All releases include a detached key as well to verify your download against.
