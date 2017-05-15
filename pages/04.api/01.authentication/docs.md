@@ -24,7 +24,7 @@ return $public . '.' . base64_encode($hmac);
 
 [/ui-tab]
 [ui-tab title="golang"]
-```go
+```
 This is still on progress...
 ```
 
