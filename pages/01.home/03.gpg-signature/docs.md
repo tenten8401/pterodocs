@@ -10,7 +10,7 @@ Releases also include a SHA256 Checksum file which is also GPG signed and includ
 
 ## GPG Public Key
 
-```sh
+```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 
 mQINBFfi+X4BEADeE8lUOD8rbBDIlHMNaBEO2kKn35jqbW4sJE4qDhOKMIT3sovp
