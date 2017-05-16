@@ -30,3 +30,10 @@ This is still in progress...
 
 [/ui-tab]
 [/ui-tabs]
+
+#### Sending Header
+You would then take that generated token and send it with an `Authorization` header on our request.
+
+```
+Authorization: Bearer JkAFq7M47kLN0xVD.wgIxj+V8RHgIetcQg2lRM0PRSH/y5M21cPz9zVhfFaQ=
+```
