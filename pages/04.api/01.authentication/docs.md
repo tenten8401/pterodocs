@@ -1,5 +1,8 @@
 ---
 title: Authentication
+taxonomy:
+    category:
+        - docs
 ---
 
 [ui-tabs position="top-left" active="0" theme="lite"]
