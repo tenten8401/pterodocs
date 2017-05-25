@@ -100,5 +100,5 @@ sudo ln -s /etc/nginx/sites-available/pterodactyl.conf /etc/nginx/sites-enabled/
 ! If you encounter any error use nginx -t to check your configs and let NGINX point out the error location for you.
 
 !!!! You did it!  
-!!!! Congratulations, your panel is now fully installed and you can begin using it!
+!!!! Congratulations, your panel is now fully installed and you can begin using it!  
 !!!! Now we need to add a new daemon, documentation for doing this can be found on our daemon documentation.
