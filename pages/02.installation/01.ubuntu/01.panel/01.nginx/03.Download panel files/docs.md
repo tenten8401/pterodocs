@@ -65,9 +65,7 @@ php artisan pterodactyl:user
 Passwords for the user must include mixed case, at least one number, and at least 8 characters. The script will fail otherwise.
 
 ####**Set Permissions**
-The last step here is to set the proper owner of the files to be the user that runs your webserver. In most cases this is `www-data` but can vary from system to system — sometimes being `nobody` or `apache`.
-
-####**NGINX**
+The last step here is to set the proper owner of the files to be the user that runs your webserver. In most cases this is `www-data` but can vary from system to system — sometimes being `nobody` or `nginx`.
  
  ```
  chown -R www-data:www-data *
