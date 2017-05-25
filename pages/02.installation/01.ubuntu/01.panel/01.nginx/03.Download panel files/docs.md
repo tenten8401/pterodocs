@@ -23,28 +23,45 @@ When you run the command above it will begin by installing all of the dependenci
 
 We then need to generate an application encryption key using the command below.
 
+```
 php artisan key:generate --force
-Environment Configuration
-MySQL Database
-You will need an existing MySQL database and non-root user to continue with the installation. Please see our Setting Up MySQL tutorial for how to do this if you are unsure.
-The next thing we need to do is get our environment setup for the panel. To do this, run the command below and follow the prompts. Please be aware that the script will first ask if you want to edit a setting (and show the current value). You will need to answer y or yes to that question before it will ask for the actual data.
+```
+####**Environment Configuration**
+!!! MySQL Database  
+!!! You will need an existing MySQL database and non-root user to continue with the installation. Please see our Setting Up MySQL tutorial for how to do this if you are unsure.
 
+The next thing we need to do is get our environment setup for the panel. To do this, run the command below and follow the prompts. Please be aware that the script will first ask if you want to edit a setting (and show the current value). You will need to answer `y` or `yes` to that question before it will ask for the actual data.
+
+```
 php artisan pterodactyl:env
-After you've configured the environment, we need to configure email handling. To do that, enter the command below and follow the prompts. If you would like to use PHP's mail() function simply select the mail option. You also have the option to use SMTP or an email delivery service.
+```
+After you've configured the environment, we need to configure email handling. To do that, enter the command below and follow the prompts. If you would like to use PHP's `mail()` function simply select the `mail` option. You also have the option to use SMTP or an email delivery service.
 
+```
 php artisan pterodactyl:mail
-Database Setup
+```
+
+####**Database Setup**
 We can now setup the database. This is an automatic process that only requires you enter the command below.
 
+```
 php artisan migrate
-This command will ask if you are sure you want to continue on a live environment, tell it yes.
+```
+
+!!! This command will ask if you are sure you want to continue on a live environment, tell it yes.  
+
 Once the database is setup we then need to seed the database with service information. To do so, run the command below.
 
-```php artisan db:seed```
+```
+php artisan db:seed
+```
+
 ####**Add Admin Account**
 Finally, we need to create an admin account on the system. Run the command below and follow the prompts to do so.
 
-```php artisan pterodactyl:user```
+```
+php artisan pterodactyl:user
+```
 Passwords for the user must include mixed case, at least one number, and at least 8 characters. The script will fail otherwise.
 
 ####**Set Permissions**
