@@ -101,4 +101,4 @@ sudo ln -s /etc/nginx/sites-available/pterodactyl.conf /etc/nginx/sites-enabled/
 
 !!!! You did it!  
 !!!! Congratulations, your panel is now fully installed and you can begin using it!  
-!!!! Now we need to add a new daemon, documentation for doing this can be found on our daemon documentation.
+!!!! Now we need to add a new daemon, documentation for doing this can be found on our [daemon documentation](https://vps3.parkervcp.com/installation/ubuntu/daemon).
