@@ -23,5 +23,5 @@ Once you have upgraded your components, you'll need to restart either `php71-fpm
 ## Upgrading MariaDB
 
 ! This upgrade should go smoothly, but there is always potential for data loss. Ensure you have a proper MySQL backup before continuing!
-
+!
 ! This upgrade **is only necessary if using MariaDB `< 10.1`**. Do not perform these actions if you have MariaDB `>= 10.1` or MySQL installed!
