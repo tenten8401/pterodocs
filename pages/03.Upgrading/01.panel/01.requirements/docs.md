@@ -2,7 +2,6 @@
 title: Requirements
 ---
 
-
 !! Due to major code refactoring and service changes, anyone running with custom services **cannot update from `0.5.x` to `0.6.0`**. We apologize for the inconvenience, but there were such significant changes that there was no reasonable way to be able to make enough correct assumptions to get these services upgraded and working.
 
 Before beginning to install `v0.6.0` you will need to ensure that your system has the following dependencies up-to-date and meeting the minimum version requirements below.
