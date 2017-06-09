@@ -58,4 +58,4 @@ php artisan queue:restart
 
 ! You **must** update your daemons to **`v0.4.0-rc.1`** or later in order to use this version of the panel.
 
-!!! If you are upgrading from a version of the panel prior to `0.6.0-beta.1` you will need to re-create any API keys currently in use as the API has ben refactored to use a different permissions system.
+!! If you are upgrading from a version of the panel prior to `0.6.0-beta.1` you will need to re-create any API keys currently in use as the API has ben refactored to use a different permissions system.
