@@ -28,7 +28,7 @@ The last step is to set the proper owner of the files to be the user that runs y
 ```
 chown -R www-data:www-data *
 ```
-### If using CentOS do:
+#### If using CentOS do:
 ```
 chown -R nginx:nginx *
 ```
@@ -37,9 +37,25 @@ chown -R nginx:nginx *
 ```
 chown -R www-data:www-data *
 ```
-### If using CentOS do:
+#### If using CentOS do:
 ```
 chown -R apache:apache *
 ```
 [/ui-tab]
 [/ui-tabs]
+
+## Site Online
+Congratulations, you're all finished with the upgrade, run the command below to bring your site back online.
+```sh
+php artisan up
+```
+
+After bringing your panel back online, run the command below to restart you queue workers and ensure they receive the newest settings.
+
+```
+php artisan queue:restart
+```
+
+! You **must** update your daemons to **`v0.4.0-rc.1`** or later in order to use this version of the panel.
+
+!!! If you are upgrading from a version of the panel prior to `0.6.0-beta.1` you will need to re-create any API keys currently in use as the API has ben refactored to use a different permissions system.
