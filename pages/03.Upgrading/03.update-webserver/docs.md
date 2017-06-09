@@ -27,3 +27,26 @@ location ~ \.php$ {
 ```
 [/ui-tab]
 [/ui-tabs]
+
+## Update Panel Dependencies
+After you've downloaded all of the new files you will need to upgrade the core components of the panel. To do this, simply run the commands below and follow any prompts.
+
+
+```sh
+sudo sed -i 's/APP_THEME=default/APP_THEME=pterodactyl/g' .env
+composer install --no-dev
+```
+
+## Update Environment
+This script will display your current values in brackets. To keep the current values simply press `enter` and it will continue without making any modifications.
+```sh
+php artisan pterodactyl:env
+```
+
+!!! Due to software limitations you will be required to enter the MySQL password for the assigned user, regardless of if you want to update it or not.
+
+## Clear Cached Views
+Once that is done, please run the following command to clear your cached views.
+```sh
+php artisan view:clear
+```
