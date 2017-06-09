@@ -6,15 +6,17 @@ We now allow file uploads for certain actions within the panel. You will need to
 
 [ui-tabs position="top-left" active="0" theme="lite"]
 [ui-tab title="nginx"]
-
+```
 location ~ \.php$ {
     ...
     fastcgi_param PHP_VALUE "upload_max_filesize = 100M \n post_max_size=100M";
     ...
 }
+```
 
 [/ui-tab]
 [ui-tab title="apache"]
+```
 <VirtualHost *:80>
 	...
   php_value upload_max_filesize 100M
@@ -22,6 +24,6 @@ location ~ \.php$ {
   <Directory "/var/www/pterodactyl/html/public">
   ...
 </VirtualHost>
-
+```
 [/ui-tab]
 [/ui-tabs]
