@@ -59,3 +59,12 @@ php artisan queue:restart
 ! You **must** update your daemons to **`v0.4.0-rc.1`** or later in order to use this version of the panel.
 
 !! If you are upgrading from a version of the panel prior to `0.6.0-beta.1` you will need to re-create any API keys currently in use as the API has ben refactored to use a different permissions system.
+
+## Rebuild Servers
+
+!!! You only need to run this rebuild function if upgrading from a version of the panel **prior to `v0.6.0-pre.6`**.
+
+This next step can take place before or after you update your daemons, it is entirely up to you, however it is **required**. We need to update the daemon configurations to make use of the new service options and docker containers (as well as startup command). Make sure your daemon's are all online to do this.
+```sh
+php artisan pterodactyl:rebuild --all
+```
