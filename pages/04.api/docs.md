@@ -1,5 +1,5 @@
 ---
-title: 'API Refference'
+title: 'API Reference'
 ---
 
 This API follows the [JSON: API](http://jsonapi.org) specification.
