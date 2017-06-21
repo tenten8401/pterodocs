@@ -11,7 +11,7 @@ php artisan down
 
 The first step in the update process is to download the new panel files from Github. Run the command below to save the file.
 ```sh
-curl -Lo v0.6.1.tar.gz https://github.com/Pterodactyl/Panel/archive/v0.6.1.tar.gz
+curl -Lo v0.6.2.tar.gz https://github.com/Pterodactyl/Panel/archive/v0.6.2.tar.gz
 ```
 !!!  Verify file entegrity  
 !!! Now is a good time to verify the integrity of the panel package. You can verify the GPG signature and verify that the SHA256 Checksum is valid for the download. The SHA256 Checksum for v0.6.1 is `94d29c7127aacd1cb46da604aabf6267d7b7ade1cb7c280f04b3713eab4e9e28`.
@@ -19,7 +19,8 @@ curl -Lo v0.6.1.tar.gz https://github.com/Pterodactyl/Panel/archive/v0.6.1.tar.g
 Next you will need to unpack the archive of files, run the commands below to do so.
 ```sh
 rm -rf resources/views
-tar --strip-components=1 -xzvf v0.6.1.tar.gz
+tar --strip-components=1 -xzvf v0.6.2.tar.gz
+rm v0.6.2.tar.gz
 ```
 
 Finally, you will need to set the correct permissions on your files so that the panel can write logs and caches as necessary.
