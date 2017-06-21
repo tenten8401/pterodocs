@@ -14,7 +14,7 @@ The first step in the update process is to download the new panel files from Git
 curl -Lo v0.6.2.tar.gz https://github.com/Pterodactyl/Panel/archive/v0.6.2.tar.gz
 ```
 !!!  Verify file entegrity  
-!!! Now is a good time to verify the integrity of the panel package. You can verify the GPG signature and verify that the SHA256 Checksum is valid for the download. The SHA256 Checksum for v0.6.1 is `94d29c7127aacd1cb46da604aabf6267d7b7ade1cb7c280f04b3713eab4e9e28`.
+!!! Now is a good time to verify the integrity of the panel package. You can verify the GPG signature and verify that the SHA256 Checksum is valid for the download. The SHA256 Checksum for v0.6.2 is `b25e497145fa1a48285783ba4d44e6089b0ea655546aae7f8af55dcf833f5226`.
 
 Next you will need to unpack the archive of files, run the commands below to do so.
 ```sh
