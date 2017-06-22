@@ -2,7 +2,9 @@
 title: 'Connection Errors'
 ---
 
-`We were unable to connect to the main Socket.IO server, there may be network issues currently. The panel may not work as expected.`
+`We were unable to connect to the main Socket.IO server, there may be network issues currently. The panel may not work as expected.`  
+or  
+`A TransferException was encountered while trying to contact the daemon, please ensure it's online and accessible. This error has been logged.`
 
 Or if your node at `List Nodes` does not show a green heart / you cannot send any commands to your servers, have a look at this list of common issues:
 
